@@ -1,0 +1,134 @@
+body{
+  font-family: "Lato", sans-serif;
+  color:black;
+  background-color: white;
+  padding-top:70px;
+}
+/*HEADER START*/
+#header-nav{
+background-color: gray;
+border:2px solid black;
+
+}
+.navbar-default .navbar-brand{
+font-size:3em;
+color:black;
+text-align: left;
+font-weight: bolder;
+padding-top: 25px;
+padding-bottom: 50px;
+margin-left: 25px;
+}
+
+/* start for BUTTON */
+button.navbar-toggle{
+margin:17px 20px 17px 5px;
+padding: 5px;
+
+}
+
+.navbar-toggle{
+background-color:gray;
+}
+.navbar-default .navbar-toggle{
+border:2px solid black;
+
+}
+.navbar-default .navbar-toggle .icon-bar{
+background-color: black;
+border:2px solid black;
+width:35px;
+margin-top: 5px;
+margin-bottom:5px;
+}
+.navbar-toggle:focus{
+  background-color: gray;
+}
+.navbar-default .navbar-toggle:focus{
+  border-color: white;
+}
+.navbar-default .navbar-toggle:focus .icon-bar{
+background-color: white;
+border:2px solid white;
+}
+#opadajuci-navbar{
+  border:none;
+  box-shadow: none;
+  height: 135px;
+  overflow: hidden;
+}
+/* end for BUTTON */
+
+#nav-list a {
+background-color: white;
+width: 100%;
+color:black;
+text-align: center;
+font-size: 1.4em;
+}
+#nav-list #chicken{
+border-top:2px solid black;
+border-left:2px solid black;
+border-right:2px solid black;
+
+}
+#nav-list #beef {
+  border:2px solid black;
+
+}
+#nav-list #sushi{
+  border-left:2px solid black;
+  border-right:2px solid black;
+  }
+/*END OF HEADER */
+
+/* MAIN-MENU START */
+#title{
+  font-size: 2.8em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+  font-weight: bolder;
+}
+h2{ font-weight: bold;
+padding-top: 10px;
+padding-bottom:20px;
+}
+
+.paragraph-one, .paragraph-two, .paragraph-three{
+  background-color: gray;
+  font-size: 1.2em;
+
+}
+
+
+/*@MEDIA*/
+/* Desktop view (in assignment) .md -according to bootstrap*/
+@media (min-width:992px)and(max-width:1199px){
+
+
+
+
+
+}
+
+/*Tablet view (in assignment) .sm -according to bootstrap*/
+@media (min-width:768px) and (max-width:991px){
+
+
+
+}
+
+
+
+
+/*Mobile view (in assignment) .xs -according to bootstrap */
+@media(max-width:767px){
+.col-xs-12{
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-bottom: 40px;
+
+}
+
+}
